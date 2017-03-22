@@ -5,12 +5,12 @@ var express = require('express');
 var app = express();
 
 // create an express route for the home page
-// http://localhost:8080/
-app.get('/', function(req, res) {
-    res.sendFile(__dirname + '/index.html');
+// http://localhost:8082/
+app.get('/', function (req, res) {
+  res.sendFile(__dirname + '/index.html');
 });
 
-// start the server on port 8080
-app.listen(8080);
+// start the server on port 8082
+app.listen(8082);
 // send a message
 console.log('Server has started!');
